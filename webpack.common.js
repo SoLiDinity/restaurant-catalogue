@@ -75,10 +75,6 @@ module.exports = {
             ignore: ['**/image/**'],
           },
         },
-        {
-          from: path.resolve(__dirname, 'font-awesome/'),
-          to: path.resolve(__dirname, 'dist/font-awesome/'),
-        },
       ],
     }),
     new WorkboxWebpackPlugin.GenerateSW({
